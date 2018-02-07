@@ -1,6 +1,5 @@
-# Slides: Graph Theory
-These are the slides for the module **Graph Theory**.
-The module is taught to third year undergraduate students at [GMIT](http://www.gmit.ie).
+# Slides: sets, tuples, maps and languages.
+These are slides used in teaching students at [GMIT](http://www.gmit.ie).
 The lecturer is [Ian McLoughlin](https://ianmcloughlin.github.io).
 
 #### Compilation
