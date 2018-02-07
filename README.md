@@ -1,4 +1,4 @@
-# Slides: sets, tuples, maps and languages.
+# Slides about sets and tuples
 These are slides used in teaching students at [GMIT](http://www.gmit.ie).
 The lecturer is [Ian McLoughlin](https://ianmcloughlin.github.io).
 
