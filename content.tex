@@ -10,12 +10,10 @@
   \end{itemize}
   \vspace{3mm}
   \begin{exampleblock}{Examples}
-    \begin{novspace}
       \begin{flalign*}
       A &= \{ 1, 2, 3 \} \\
       B &= \{ p \mid p \ \textrm{is a prime number} \}
       \end{flalign*}
-    \end{novspace}
   \end{exampleblock}
 \end{frame} 
  
@@ -40,7 +38,7 @@
   To a programmer, the answer is likely no, since $1.0$ is a floating-point number and not an integer.
   Compilers will sometimes give errors if you give $1.0$ where an integer is expected.
 
-  \begin{minted}{python}
+  \begin{minted}[frame=lines]{python}
 IPython 6.1.0 -- An enhanced Interactive Python.
 Type '?' for help.
 In [1]: i = 1.0
@@ -106,9 +104,9 @@ Out[4]: 4
 
 
 \begin{frame}[fragile]{Sizes of sets}
-  \begin{topdisp}
-  $$ A = \{a,b,c\} \  \Rightarrow \  \vert A \vert = 3 $$
-  \end{topdisp}
+  
+  \redmath{A = \{a,b,c\} \  \Rightarrow \  \vert A \vert = 3}
+
   \begin{itemize}
     \setlength\itemsep{4mm}
     \item Number of elements is denoted with vertical lines.
@@ -120,9 +118,7 @@ Out[4]: 4
 
 
 \begin{frame}{Operations on sets}
-  \begin{topdisp}
-    $$ A = \{1,2,3\} \qquad  B = \{2,3,4\}$$
-  \end{topdisp}
+  \redmath{A = \{1,2,3\} \qquad  B = \{2,3,4\}}
   \vspace{4mm}
   \begin{description}[Intersection:]
     \setlength\itemsep{6mm}
@@ -140,9 +136,7 @@ Out[4]: 4
 \section{Tuples}
 
 \begin{frame}{Tuples: finite list of elements taken from sets}
-  \begin{topdisp}
-    $$t = (2,1,1) \qquad t \in \mathbb{N} \times \mathbb{N} \times \mathbb{N} \qquad |t| = 3$$
-  \end{topdisp}
+  \redmath{t = (2,1,1) \qquad t \in \mathbb{N} \times \mathbb{N} \times \mathbb{N} \qquad |t| = 3}
   \begin{itemize}
     \setlength\itemsep{2mm}
     \item Round brackets denote tuples, and $t$ is a $3$-tuple or a triple.
@@ -156,10 +150,8 @@ Out[4]: 4
 \end{frame}
 
 \begin{frame}[fragile]{Cartesian products of sets}
-  \begin{topdisp}
-    $$A = \{1,2,3\} \qquad B = \{x,y\}$$
-    $$A \times B = \{(1,x),(2,x),(3,x),(2,y),(2,y),(3,y)\}$$
-  \end{topdisp}
+  \redmath{A = \{1,2,3\} \qquad B = \{x,y\}}
+  \redmath{A \times B = \{(1,x),(2,x),(3,x),(1,y),(2,y),(3,y)\}}
   
   \begin{itemize}
     \item $A \times B$ is called the cartesian product of $A$ and $B$ -- the set of tuples with first element from $A$ and second from $B$.
@@ -187,9 +179,8 @@ Out[4]: 4
 \end{frame}
 
 \begin{frame}[fragile]{Multisets}
-  \begin{topdisp}
-    $$M = \{(a, 2), (b, 10), (x,5) \}$$
-  \end{topdisp}
+  \redmath{A = \{a,b,x \}}
+  \redmath{M = \{(a, 2), (b, 10), (x,5) \}}
   \begin{itemize}
     \setlength\itemsep{3mm}
     \item We can use sets and tuples to define other data structures.
